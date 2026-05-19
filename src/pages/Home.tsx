@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import RecipeCard from '../components/RecipeCard';
+import TipCard from '../components/TipCard';
 import { MOCK_RECIPES } from '../data/recipes';
+import { MOCK_TIPS } from '../data/tips';
 import './Home.css';
 
 const CATEGORIES = ['Todas', 'Frutas', 'Cremosos', 'Alcoólicos', 'Fitness', 'Infantil', 'Premium'];
@@ -84,6 +86,18 @@ const Home = () => {
               ))}
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Tips Section */}
+      <section className="section" id="dicas">
+        <div className="container">
+          <h2 className="section-title fade-in-up">Dicas de Ouro</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 fade-in-up stagger-2">
+            {MOCK_TIPS.map(tip => (
+              <TipCard key={tip.id} title={tip.title} content={tip.content} />
+            ))}
+          </div>
         </div>
       </section>
     </div>

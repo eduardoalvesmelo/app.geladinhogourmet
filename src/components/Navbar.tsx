@@ -21,7 +21,18 @@ const Navbar = () => {
         
         <nav className={`navbar-links ${isMenuOpen ? 'mobile-open' : ''}`}>
           <Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>Início</Link>
-          <Link to="/#categories" className="nav-link" onClick={() => setIsMenuOpen(false)}>Categorias</Link>
+          <Link to="/#categories" className="nav-link" onClick={() => {
+            setIsMenuOpen(false);
+            setTimeout(() => {
+              document.getElementById('categories')?.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+          }}>Categorias</Link>
+          <Link to="/#dicas" className="nav-link" onClick={() => {
+            setIsMenuOpen(false);
+            setTimeout(() => {
+              document.getElementById('dicas')?.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+          }}>Dicas</Link>
           <Link to="/favorites" className="nav-link" onClick={() => setIsMenuOpen(false)}>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
               <Heart size={16} /> Favoritos

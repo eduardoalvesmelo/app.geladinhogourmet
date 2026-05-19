@@ -101,5 +101,568 @@ export const MOCK_RECIPES: Recipe[] = [
       'Volte o suco ao liquidificador, adicione os demais ingredientes e bata bem.',
       'Deixe descansar, coloque nos saquinhos e leve ao freezer.'
     ]
+  },
+  {
+    id: '5',
+    title: 'Geladinho de Oreo',
+    image: '/geladinho_oreo.png',
+    prepTime: '40 min',
+    category: 'Premium',
+    rating: 4.9,
+    yield: '10 unidades',
+    ingredients: [
+      '750 ml de Leite integral',
+      '1 Cx Leite condensado',
+      '2 Colheres (sopa) de leite ninho',
+      '2 Colheres (chá) rasas de liga neutra',
+      '10 Biscoitos Oreo'
+    ],
+    instructions: [
+      'Compre o pacote de oreo com 10 unidades, separe 2 biscoitos Oreo e triture no liquidificador até se tornarem pequenos pedaços, guarde em um recipiente.',
+      'Use esse pó para encher os saquinhos, bote apenas um colher rasa de chá em cada saco.',
+      'Jogue todo o resto da receita no liquidificador (incluindo os outros 8 biscoitos), bata durante aproximadamente 1 min e 30 segundos.',
+      'Deixe a receita descansar durante ao menos 30 min.',
+      'Logo após, retire toda espuma e bote em outro recipiente.',
+      'Agora basta apenas encher os saquinho com 100 ml (recomendado).'
+    ]
+  },
+  {
+    id: '6',
+    title: 'Geladinho Sensações',
+    image: '/geladinho_sensacoes.png',
+    prepTime: '35 min',
+    category: 'Premium',
+    rating: 4.9,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de Leite integral',
+      '1 Cx Leite condensado',
+      '2 Colheres (sopa) de leite ninho',
+      '2 Colheres (chá) rasas de liga neutra',
+      '3 Colheres (sopa) rasas de pó para sorvete de morango',
+      '1 Colher (chá) de Nutella (para cada saquinho)'
+    ],
+    instructions: [
+      'Abra os saquinhos, pegue a Nutella e bote apenas uma colher de chá em cada saquinho.',
+      'Logo após, bote os saquinhos no congelador para congelar e evitar que a Nutella se misture com líquido.',
+      'Jogue todo o resto da receita no liquidificador, bata durante aproximadamente 1 min e 30 segundos.',
+      'Deixe a receita descansar durante ao menos 30 min.',
+      'Logo após, retire toda espuma e bote em outro recipiente.',
+      'Agora basta apenas encher os saquinhos com 100 ml (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '7',
+    title: 'Morango com Cobertura',
+    image: '/geladinho_morango_cobertura.png',
+    prepTime: '35 min',
+    category: 'Cremosos',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de Leite integral',
+      '1 Cx Leite condensado',
+      '2 Colheres (sopa) de leite ninho',
+      '2 Colheres (chá) rasas de liga neutra',
+      '3 colheres (sopa) rasas de pó para sorvete de morango',
+      'Cobertura de Morango (para o saquinho)'
+    ],
+    instructions: [
+      'Abra os saquinhos e bote a cobertura de sorvete dentro.',
+      'Cuidado para não exagerar, caso bote demais vai ficar muito doce. Espalhe bem a cobertura no saquinho.',
+      'Jogue todo o resto da receita no liquidificador, bata durante aproximadamente 1 min e 30 segundos.',
+      'Deixe a receita descansar durante ao menos 30 min.',
+      'Logo após, retire toda espuma e bote em outro recipiente.',
+      'Agora basta apenas encher os saquinhos com 100 ml (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '8',
+    title: 'Creme com Caramelo',
+    image: '/geladinho_creme.png',
+    prepTime: '35 min',
+    category: 'Cremosos',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de Leite integral',
+      '1 Cx Leite condensado',
+      '2 Colheres (sopa) de leite ninho',
+      '2 Colheres (chá) rasas de liga neutra',
+      '3 Colheres (sopa) rasas de pó para sorvete de creme',
+      'Cobertura de caramelo (Opcional, para o saquinho)'
+    ],
+    instructions: [
+      'Abra os saquinhos, pegue a cobertura de caramelo e bote apenas uma pequena porção em cada saquinho.',
+      'Espalhe bem a cobertura pelo interior do saquinho.',
+      'Jogue todo o resto da receita no liquidificador, bata durante aproximadamente 1 min e 30 segundos.',
+      'Deixe a receita descansar durante ao menos 30 min.',
+      'Logo após, retire toda espuma e bote em outro recipiente.',
+      'Agora basta apenas encher os saquinhos com 100 ml (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '9',
+    title: 'Geladinho de Ovomaltine',
+    image: '/geladinho_ovomaltine.png',
+    prepTime: '35 min',
+    category: 'Premium',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de Leite integral',
+      '1 Cx Leite condensado',
+      '2 Colheres (sopa) de leite ninho',
+      '2 Colheres (chá) rasas de liga neutra',
+      '3 Colheres (sopa) de Ovomaltine'
+    ],
+    instructions: [
+      'Abra os saquinhos, pegue o Ovomaltine e bote apenas uma colher de chá em cada saquinho.',
+      'Jogue todo o resto da receita no liquidificador, bata durante aproximadamente 1 min e 30 segundos.',
+      'Deixe a receita descansar durante ao menos 30 min.',
+      'Logo após, retire toda espuma e bote em outro recipiente.',
+      'Agora basta apenas encher os saquinhos com 100 ml (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '10',
+    title: 'Ninho com Oreo',
+    image: '/geladinho_ninho_oreo.png',
+    prepTime: '30 min',
+    category: 'Premium',
+    rating: 5.0,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de Leite integral',
+      '1 Cx Leite condensado',
+      '4 Colheres (sopa) de leite ninho',
+      '2 Colheres (chá) rasas de liga neutra',
+      '10 biscoitos Oreo'
+    ],
+    instructions: [
+      'Pegue os biscoitos e triture em pedacinhos pequenos, e encha os saquinhos.',
+      'Jogue todo o resto da receita no liquidificador, bata durante aproximadamente 1 min e 30 segundos.',
+      'Deixe a receita descansar durante ao menos 20 min.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Agora basta apenas encher os saquinhos com 100 ml (recomendado) e levar ao congelador.',
+      'DICA: Coloque açúcar, se achar necessário. Pois o sacolé tem que ser bem docinho.'
+    ]
+  },
+  {
+    id: '11',
+    title: 'Creme com Nutella (Crush)',
+    image: '/geladinho_creme_nutella.png',
+    prepTime: '35 min',
+    category: 'Premium',
+    rating: 4.9,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de Leite integral',
+      '1 Cx Leite condensado',
+      '2 Colheres (sopa) de leite ninho',
+      '2 Colheres (chá) rasas de liga neutra',
+      '3 Colheres (sopa) rasas de sorvete de creme',
+      '1 colher (chá) de Nutella'
+    ],
+    instructions: [
+      'Abra os saquinhos, pegue a Nutella bote apenas uma colher de chá em cada saquinho.',
+      'Logo após bote os saquinhos no congelador para congelar e evitar que a Nutella se misture com liquido.',
+      'Jogue todo o resto da receita no liquidificador, bata durante aproximadamente 1 min e 30 segundos.',
+      'Deixe a receita descansar durante ao menos 30 min.',
+      'Logo após, retire toda espuma e bote em outro recipiente.',
+      'Agora basta apenas encher os saquinhos com 100 ml (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '12',
+    title: 'Ninho com Morango',
+    image: '/geladinho_ninho_morango.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de Leite integral',
+      '1 Cx Leite condensado',
+      '2 Colheres (sopa) de leite ninho',
+      '2 Colheres (chá) rasas de liga neutra',
+      '1 Caixa de Morangos Frescos'
+    ],
+    instructions: [
+      'Bata todos os ingredientes (exceto o morango em pedaços) no liquidificador por 3 minutos.',
+      'Espere até a espuma abaixar, remova a espuma e bote em outro recipiente.',
+      'Pique os morangos em pedaços pequenos e coloque nos saquinhos antes de encher.',
+      'Com a ajuda de um funil agora basta apenas encher os saquinhos com 100 ml (recomendado) e levar ao freezer.',
+      'DICA: Coloque açúcar, se achar necessário. Pois o sacolé tem que ser bem docinho.'
+    ]
+  },
+  {
+    id: '13',
+    title: 'Geladinho de Paçoca',
+    image: '/geladinho_pacoca.png',
+    prepTime: '30 min',
+    category: 'Cremosos',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx Leite condensado',
+      '4 colheres (sopa) de leite ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '8 paçocas'
+    ],
+    instructions: [
+      'Bata primeiro a base (leite integral e leite condensado) no liquidificador.',
+      'Amasse as 8 paçocas em um prato, depois basta acrescentar na base e bater novamente durante aproximadamente 1 min e 30 segundos.',
+      'Deixe a receita descansar durante pelo menos 20 min, logo após, retire toda a espuma e coloque em outro recipiente.',
+      'Agora é só encher os saquinhos com 100 ml cada (recomendado) e levar ao congelador.',
+      'Obs.: Se você bater a paçoca junto da base desde o início, fará mais espuma.'
+    ]
+  },
+  {
+    id: '14',
+    title: 'Geladinho de Bis',
+    image: '/geladinho_bis.png',
+    prepTime: '25 min',
+    category: 'Premium',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '1 Cx de Bis',
+      '2 colheres (sopa) de achocolatado'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por pelo menos 1 minuto e 30 segundos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Depois é só encher os saquinhos com 100ml cada (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '15',
+    title: 'Geladinho Chicabon',
+    image: '/geladinho_chicabon.png',
+    prepTime: '25 min',
+    category: 'Premium',
+    rating: 4.9,
+    yield: '10 unidades',
+    ingredients: [
+      '3 xícaras de leite integral',
+      '2 latas de creme de leite (300g)',
+      '2 colheres (chá) rasas de liga neutra',
+      '2 latas de doce de leite (200g)',
+      '4 colheres (sopa) rasas de cacau em pó'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por pelo menos 2 minutos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Depois é só encher os saquinhos com 100ml cada (recomendado) e congelar.'
+    ]
+  },
+  {
+    id: '16',
+    title: 'Torta de Limão',
+    image: '/geladinho_torta_limao.png',
+    prepTime: '30 min',
+    category: 'Premium',
+    rating: 4.9,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '1 xícara de chá de suco de limão',
+      '1 Cx de creme de leite',
+      '20 biscoitos de maisena',
+      '2 colheres (sopa) de açúcar (opcional)'
+    ],
+    instructions: [
+      'Quebre todos os biscoitos em pedaços pequenos e deixe separados.',
+      'Misture o resto dos ingredientes no liquidificador por pelo menos 2 minutos.',
+      'Depois coloque os biscoitos na mistura e mexa (sem bater no liquidificador).',
+      'Deixe descansar por pelo menos 20 minutos, logo após, retire toda espuma e coloque em outro recipiente.',
+      'Depois é só encher os saquinhos com 100ml cada e levar ao congelador.'
+    ]
+  },
+  {
+    id: '17',
+    title: 'Coco com Nutella',
+    image: '/geladinho_coco_nutella.png',
+    prepTime: '30 min',
+    category: 'Premium',
+    rating: 5.0,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '100g de coco ralado adoçado',
+      '1 colher (chá) de Nutella (para cada saquinho)'
+    ],
+    instructions: [
+      'Abra os saquinhos, pegue a Nutella e bote apenas uma colher de chá em cada saquinho.',
+      'Logo após bote os saquinhos no congelador para congelar e evitar que a Nutella se misture com líquido.',
+      'Misture todos os outros ingredientes no liquidificador por pelo menos 2 minutos.',
+      'Deixe descansar por pelo menos 20 minutos, logo após, retire toda espuma e coloque em outro recipiente.',
+      'Depois é só encher os saquinhos com 100ml cada e levar ao freezer.'
+    ]
+  },
+  {
+    id: '18',
+    title: 'Ouro Branco',
+    image: '/geladinho_ouro_branco.png',
+    prepTime: '25 min',
+    category: 'Premium',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '8 bombons Ouro Branco'
+    ],
+    instructions: [
+      'Bata todos os ingredientes por pelo menos 1 minuto e 30 segundos no liquidificador.',
+      'Deixe descansar por pelo menos 20 minutos.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Depois é só adicionar 100ml (recomendado) da mistura nos saquinhos e levar ao freezer.'
+    ]
+  },
+  {
+    id: '19',
+    title: 'Geladinho de Doce de Leite',
+    image: '/geladinho_doce_de_leite.png',
+    prepTime: '25 min',
+    category: 'Cremosos',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '2 colheres (sopa) de doce de leite'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por pelo menos 1 minuto.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Enquanto isso, coloque nos saquinhos 1 colher (chá) de doce de leite em cada um.',
+      'Logo após, retire toda espuma da mistura e coloque em outro recipiente.',
+      'Aí é só encher os saquinhos com 100ml cada (recomendado) e levar ao congelador.'
+    ]
+  },
+  {
+    id: '20',
+    title: 'Amendoim com Chocolate',
+    image: '/geladinho_pacoca.png',
+    prepTime: '25 min',
+    category: 'Premium',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '180g de amendoim torrado (sem casca e sem sal)',
+      'Cobertura de sorvete sabor chocolate'
+    ],
+    instructions: [
+      'Bata todos os ingredientes (exceto a cobertura) no liquidificador por pelo menos 2 minutos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Enquanto isso, coloque uma colher (chá) da cobertura de chocolate nos saquinhos.',
+      'Logo após, retire toda espuma da mistura e coloque em outro recipiente.',
+      'Aí é só encher os saquinhos com 100ml cada (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '21',
+    title: 'Ninho com Goiabada',
+    image: '/geladinho_ninho_morango.png',
+    prepTime: '30 min',
+    category: 'Premium',
+    rating: 4.9,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '1 colher (chá) de goiabada derretida para cada saquinho'
+    ],
+    instructions: [
+      'Coloque a goiabada em uma panela com meia xícara (chá) de leite e mexa até a goiabada derreter. Reserve em um recipiente.',
+      'Bata o resto dos ingredientes no liquidificador por pelo menos 1 minuto e 30 segundos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Enquanto isso coloque uma colher (chá) da goiabada derretida nos saquinhos.',
+      'Logo após, retire toda espuma da mistura e coloque em outro recipiente.',
+      'Aí é só encher os saquinhos com 100ml cada e levar ao freezer.'
+    ]
+  },
+  {
+    id: '22',
+    title: 'Banana com Caramelo',
+    image: '/geladinho_creme.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '2 bananas picadas',
+      'Cobertura de sorvete sabor caramelo'
+    ],
+    instructions: [
+      'Bata todos os ingredientes (exceto a cobertura) no liquidificador por pelo menos 2 minutos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Enquanto isso coloque a cobertura de caramelo até a metade dos saquinhos.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Aí é só encher os saquinhos com 100ml cada (recomendado) e congelar.'
+    ]
+  },
+  {
+    id: '23',
+    title: 'Geladinho de Nutella',
+    image: '/geladinho_creme_nutella.png',
+    prepTime: '25 min',
+    category: 'Premium',
+    rating: 5.0,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '2 colheres (sopa) de Nutella'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por pelo menos 1 minuto e 30 segundos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Aí é só encher os saquinhos com 100ml cada (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '24',
+    title: 'Geladinho Nesquik',
+    image: '/geladinho_nesquik.png',
+    prepTime: '25 min',
+    category: 'Cremosos',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '8 colheres (sopa) de Nesquik'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por pelo menos 2 minutos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Depois é só encher os saquinhos com 100ml cada (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '25',
+    title: 'Ferrero Rocher',
+    image: '/geladinho_ferrero.png',
+    prepTime: '25 min',
+    category: 'Premium',
+    rating: 5.0,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '8 bombons Ferrero Rocher'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por pelo menos 2 minutos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Depois é só encher os saquinhos com 100ml cada (recomendado) e levar ao congelador.'
+    ]
+  },
+  {
+    id: '26',
+    title: 'Pedacinho do Céu',
+    image: '/geladinho_ceu.png',
+    prepTime: '25 min',
+    category: 'Infantil',
+    rating: 4.9,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '2 colheres (sopa) de pó azul para sorvete sabor blue ice'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por pelo menos 2 minutos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Depois é só encher os saquinhos com 100ml cada (recomendado) e congelar.'
+    ]
+  },
+  {
+    id: '27',
+    title: 'Ninho com Nutella',
+    image: '/geladinho_ninho_nutella.png',
+    prepTime: '25 min',
+    category: 'Premium',
+    rating: 5.0,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '1 Colher (chá) de Nutella para cada saquinho'
+    ],
+    instructions: [
+      'Bata todos os ingredientes (exceto a Nutella) no liquidificador por pelo menos 2 minutos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Enquanto isso, coloque uma colher de chá de Nutella em cada saquinho e espalhe.',
+      'Logo após, retire toda espuma da mistura e coloque em outro recipiente.',
+      'Depois é só encher os saquinhos com 100ml cada (recomendado) e levar ao freezer.'
+    ]
+  },
+  {
+    id: '28',
+    title: 'Geladinho de Goiaba',
+    image: '/geladinho_goiaba.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '1 Cx de leite condensado',
+      '4 colheres (sopa) de leite Ninho',
+      '2 colheres (chá) rasas de liga neutra',
+      '150g de goiabada',
+      '1 copo de iogurte natural (170g)'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por pelo menos 2 minutos.',
+      'Em seguida deixe descansar por pelo menos 20 minutos.',
+      'Logo após, retire toda espuma e coloque em outro recipiente.',
+      'Depois é só encher os saquinhos com 100ml cada (recomendado) e levar ao freezer.'
+    ]
   }
 ];
