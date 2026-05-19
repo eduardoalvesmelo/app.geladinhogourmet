@@ -1,0 +1,222 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.logo-icon {
+  color: var(--primary);
+}
+
+.logo-accent {
+  color: var(--primary);
+}
+
+.navbar-links {
+  display: none;
+  gap: 2rem;
+}
+
+.navbar-links.mobile-open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  animation: slideDown 0.3s ease forwards;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (min-width: 768px) {
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-links.mobile-open {
+    position: static;
+    flex-direction: row;
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    animation: none;
+  }
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--primary);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+  width: 100%;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.mobile-menu-btn {
+  display: block;
+}
+
+/* User Profile Stub */
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 9999px;
+  border: 1px solid var(--glass-border);
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 0.75rem;
+}
+
+.user-level {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.user-score {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Notifications */
+.notifications-wrapper {
+  position: relative;
+}
+
+.relative {
+  position: relative;
+}
+
+.notification-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.notifications-dropdown {
+  position: absolute;
+  top: 120%;
+  right: -50px;
+  width: 300px;
+  padding: 1rem;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.notifications-dropdown h4 {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.notification-item {
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.notification-item.unread {
+  background: rgba(225, 29, 72, 0.05);
+  border-left: 3px solid var(--primary);
+}
+
+.hide-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+  
+  .hide-mobile {
+    display: flex;
+  }
+  
+  .notifications-dropdown {
+    right: 0;
+  }
+}
