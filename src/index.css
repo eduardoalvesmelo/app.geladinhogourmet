@@ -164,8 +164,12 @@ a {
 @media (min-width: 640px) {
   .grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
 }
+@media (min-width: 768px) {
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+}
 @media (min-width: 1024px) {
   .grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .lg\:grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
 }
 @media (min-width: 1280px) {
   .grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
@@ -174,6 +178,7 @@ a {
 /* Section styling */
 .section {
   padding: 5rem 0;
+  scroll-margin-top: 100px;
 }
 
 .section-title {

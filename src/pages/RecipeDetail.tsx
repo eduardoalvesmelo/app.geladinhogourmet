@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { Clock, Star, ArrowLeft, CheckCircle2, Play, Heart, Award } from 'lucide-react';
+import { Clock, Star, ArrowLeft, CheckCircle2, Heart, Award } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { MOCK_RECIPES } from '../data/recipes';
 import RecipeCard from '../components/RecipeCard';
@@ -31,9 +31,6 @@ const RecipeDetail = () => {
         <div className="recipe-header fade-in-up">
           <div className="recipe-image-wrapper">
             <img src={recipe.image} alt={recipe.title} className="recipe-image" />
-            <div className="play-button">
-              <Play size={32} fill="white" />
-            </div>
             <button 
               className="favorite-btn" 
               onClick={() => toggleFavorite(recipe.id)}

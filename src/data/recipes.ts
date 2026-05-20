@@ -664,5 +664,231 @@ export const MOCK_RECIPES: Recipe[] = [
       'Logo após, retire toda espuma e coloque em outro recipiente.',
       'Depois é só encher os saquinhos com 100ml cada (recomendado) e levar ao freezer.'
     ]
+  },
+  {
+    id: '29',
+    title: 'Geladinho de Acerola',
+    image: '/geladinho_acerola.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '4 xícaras de acerolas',
+      '1 xícara de água',
+      '4 colheres (sopa) de açúcar',
+      '1/2 xícara de leite',
+      '1 colher rasa de liga neutra'
+    ],
+    instructions: [
+      'Coloque a água e as acerolas no liquidificador e deixe bater por pelo menos 1 minuto e 30 segundos.',
+      'Peneire a mistura e coloque o suco novamente no liquidificador.',
+      'Adicione o resto dos ingredientes e deixe bater por pelo menos 1 minuto.',
+      'Deixe a mistura descansar por pelo menos 20 minutos.',
+      'Retire toda a espuma formada na superfície e transfira o líquido para outro recipiente.',
+      'Com o auxílio de um funil, preencha cada saquinho com cerca de 100ml da mistura e leve ao congelador.'
+    ]
+  },
+  {
+    id: '30',
+    title: 'Geladinho de Uva',
+    image: '/geladinho_uva.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.7,
+    yield: '5 unidades',
+    ingredients: [
+      'Meio sachê de 25g de suco Tang sabor Uva',
+      '250ml de água',
+      '250ml de leite',
+      'Meia xícara de açúcar',
+      '1 colher rasa de liga neutra'
+    ],
+    instructions: [
+      'Coloque todos os ingredientes no liquidificador.',
+      'Bata por pelo menos 1 minuto e 30 segundos até misturar completamente.',
+      'Deixe a mistura descansar por pelo menos 20 minutos.',
+      'Retire toda a espuma acumulada no topo e transfira para outro recipiente.',
+      'Preencha cada saquinho com cerca de 100ml e leve ao congelador.'
+    ]
+  },
+  {
+    id: '31',
+    title: 'Geladinho de Morango Natural',
+    image: '/geladinho_morango.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.9,
+    yield: '5 unidades',
+    ingredients: [
+      '1 caixa de morangos (aprox. 10 unidades)',
+      '1 xícara (chá) de água',
+      'Suco de 1/2 limão',
+      '4 colheres (sopa) de açúcar',
+      '1 colher rasa de liga neutra'
+    ],
+    instructions: [
+      'Lave bem os morangos e retire as folhas.',
+      'Coloque todos os ingredientes no liquidificador e bata por pelo menos 1 minuto e 30 segundos.',
+      'Deixe a mistura descansar por pelo menos 20 minutos.',
+      'Peneire e retire toda a espuma da superfície antes de transferir para outro recipiente.',
+      'Coloque 100ml em cada saquinho de geladinho e leve ao congelador.'
+    ]
+  },
+  {
+    id: '32',
+    title: 'Geladinho de Jaca',
+    image: '/geladinho_jaca.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.6,
+    yield: '5 unidades',
+    ingredients: [
+      '10 bagos de jaca (sem caroço)',
+      '300ml de água',
+      '2 colheres de sopa de açúcar',
+      '1 colher rasa de liga neutra'
+    ],
+    instructions: [
+      'Retire os caroços dos bagos de jaca.',
+      'Coloque todos os ingredientes no liquidificador.',
+      'Bata por pelo menos 1 minuto e 30 segundos.',
+      'Deixe a mistura descansar por pelo menos 20 minutos.',
+      'Peneire, retire toda a espuma da superfície e coloque em outro recipiente.',
+      'Encha os saquinhos com 100ml da mistura cada e congele.'
+    ]
+  },
+  {
+    id: '33',
+    title: 'Geladinho de Banana',
+    image: '/geladinho_banana.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite',
+      '1 kg de banana prata',
+      '400g de açúcar',
+      'Suco de 1/2 limão',
+      '4 colheres (sopa) de açúcar',
+      '1 colher rasa de liga neutra'
+    ],
+    instructions: [
+      'Descasque e pique as bananas.',
+      'Coloque todos os ingredientes no liquidificador e bata por pelo menos 1 minuto e 30 segundos.',
+      'Deixe a mistura descansar por pelo menos 20 minutos.',
+      'Remova toda a espuma da superfície e transfira o conteúdo para outro recipiente.',
+      'Insira 100ml da mistura em cada saquinho de geladinho e leve ao congelador.'
+    ]
+  },
+  {
+    id: '34',
+    title: 'Geladinho de Maracujá com Laranja',
+    image: '/geladinho_diet_maracuja_laranja.png',
+    prepTime: '25 min',
+    category: 'Diet',
+    rating: 4.8,
+    yield: '12 unidades',
+    ingredients: [
+      '1L de água',
+      '2 maçãs bem doces, sem casca e sem semente (se não estiverem doces acrescente mel ou açúcar demerara)',
+      '100g de polpa de maracujá',
+      '100ml de suco de laranja',
+      '1/2 pepino',
+      '200ml de água de coco'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe a mistura descansar por 10 minutos.',
+      'Retire a espuma acumulada no topo.',
+      'Coe a mistura e coloque 100ml do líquido em cada saquinho.'
+    ]
+  },
+  {
+    id: '35',
+    title: 'Geladinho Detox de Melancia',
+    image: '/geladinho_diet_melancia.png',
+    prepTime: '25 min',
+    category: 'Diet',
+    rating: 4.9,
+    yield: '6 unidades',
+    ingredients: [
+      '1 fatia grande de melancia',
+      '200ml de água de coco',
+      'Adoçante a gosto',
+      '1 colher de chá de canela',
+      '4 morangos'
+    ],
+    instructions: [
+      'Pique a fatia de melancia e remova as sementes.',
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe a mistura descansar por 10 minutos.',
+      'Retire a espuma, coe a mistura e coloque 100ml do líquido em cada saquinho.'
+    ]
+  },
+  {
+    id: '36',
+    title: 'Geladinho de Frutas Fit',
+    image: '/geladinho_diet_frutas_fit.png',
+    prepTime: '25 min',
+    category: 'Diet',
+    rating: 4.7,
+    yield: '8 unidades',
+    ingredients: [
+      'Frutas a gosto picadas em cubinhos (morango, kiwi, uva, manga)',
+      '800ml de água de coco',
+      'Adoçante ou mel a gosto'
+    ],
+    instructions: [
+      'Lave bem as frutas escolhidas e pique-as em cubinhos pequenos para que caibam nos saquinhos.',
+      'Coloque as frutas picadas diretamente dentro dos saquinhos.',
+      'Se desejar, adoce a água de coco com mel ou adoçante.',
+      'Complete o preenchimento dos saquinhos com a água de coco, amarre bem e congele.'
+    ]
+  },
+  {
+    id: '37',
+    title: 'Geladinho Detox de Morango',
+    image: '/geladinho_diet_morango.png',
+    prepTime: '25 min',
+    category: 'Diet',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1L de água',
+      '2 maçãs bem doces, sem casca e sem semente (se não estiverem muito doces use mel ou açúcar demerara)',
+      '60g de morangos picados'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe descansar por 10 minutos.',
+      'Coe e retire toda a espuma da mistura.',
+      'Distribua 100ml em cada saquinho de geladinho e congele.'
+    ]
+  },
+  {
+    id: '38',
+    title: 'Geladinho Detox Anti-inflamatório',
+    image: '/geladinho_diet_anti_inflamatorio.png',
+    prepTime: '25 min',
+    category: 'Diet',
+    rating: 4.6,
+    yield: '6 unidades',
+    ingredients: [
+      '200ml de água de coco',
+      '1/2 maçã',
+      '1/2 cenoura',
+      '2 pedaços de gengibre',
+      'Suco de 1 laranja',
+      '1 kiwi descascado e picado',
+      'Adoçante ou mel a gosto'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe descansar por 10 minutos.',
+      'Retire a espuma e coe a mistura.',
+      'Coloque 100ml do líquido em cada saquinho e congele.'
+    ]
   }
 ];

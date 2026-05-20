@@ -6,7 +6,7 @@ import { MOCK_RECIPES } from '../data/recipes';
 import { MOCK_TIPS } from '../data/tips';
 import './Home.css';
 
-const CATEGORIES = ['Todas', 'Frutas', 'Cremosos', 'Alcoólicos', 'Fitness', 'Infantil', 'Premium'];
+const CATEGORIES = ['Todas', 'Frutas', 'Cremosos', 'Alcoólicos', 'Fitness', 'Diet', 'Infantil', 'Premium'];
 
 const Home = () => {
   const [activeCategory, setActiveCategory] = useState('Todas');

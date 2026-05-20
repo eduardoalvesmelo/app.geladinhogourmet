@@ -14,13 +14,19 @@ const Navbar = () => {
   return (
     <header className="navbar glass-panel">
       <div className="container navbar-container">
-        <Link to="/" className="navbar-logo" onClick={() => setIsMenuOpen(false)}>
+        <Link to="/" className="navbar-logo" onClick={() => {
+          setIsMenuOpen(false);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}>
           <IceCream2 className="logo-icon" size={28} />
           <span>Gelato<span className="logo-accent">Gourmet</span></span>
         </Link>
         
         <nav className={`navbar-links ${isMenuOpen ? 'mobile-open' : ''}`}>
-          <Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>Início</Link>
+          <Link to="/" className="nav-link" onClick={() => {
+            setIsMenuOpen(false);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}>Início</Link>
           <Link to="/#categories" className="nav-link" onClick={() => {
             setIsMenuOpen(false);
             setTimeout(() => {
