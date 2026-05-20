@@ -14,8 +14,26 @@ export const MOCK_TIPS: Tip[] = [
   },
   {
     id: '2',
-    title: 'Precisa adoçar mais?',
-    content: 'Se achar necessário, coloque um pouco mais de açúcar na sua receita base. Como o geladinho será congelado, ele perde um pouco do dulçor, então a mistura líquida precisa estar "bem docinha" antes de ir para o freezer.',
+    title: 'Uso da liga neutra',
+    content: 'Essencial para garantir a cremosidade e evitar a formação de cristais de gelo no geladinho.',
+    icon: 'Lightbulb'
+  },
+  {
+    id: '3',
+    title: 'Padronize o volume',
+    content: 'Use um medidor ou faça um geladinho de água como modelo para garantir que todas as unidades fiquem com o mesmo tamanho e peso.',
+    icon: 'Lightbulb'
+  },
+  {
+    id: '4',
+    title: 'Descanse antes de ensacar',
+    content: 'Deixar a mistura descansar por cerca de 10 a 20 minutos após o preparo ajuda a reduzir o excesso de espuma antes de ensacar.',
+    icon: 'Lightbulb'
+  },
+  {
+    id: '5',
+    title: 'Acabamento profissional',
+    content: 'Use uma tesoura de cozinha para cortar a sobra de plástico após o nó e deixar as pontas dos saquinhos com uma apresentação limpa.',
     icon: 'Lightbulb'
   }
 ];

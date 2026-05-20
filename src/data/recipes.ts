@@ -59,34 +59,11 @@ export const MOCK_RECIPES: Recipe[] = [
     ]
   },
   {
-    id: '3',
-    title: 'Ninho com Nutella',
-    image: '/geladinho1.png',
-    prepTime: '25 min',
-    category: 'Cremosos',
-    rating: 5.0,
-    yield: '8 unidades',
-    ingredients: [
-      '1 litro de leite',
-      '1 lata de leite condensado',
-      '1 creme de leite',
-      '1 xícara de Leite Ninho em pó',
-      '1 colher de liga neutra',
-      'Nutella para o saquinho'
-    ],
-    instructions: [
-      'Bata o leite, leite condensado, creme de leite, Leite Ninho e liga neutra.',
-      'Deixe descansar.',
-      'Coloque 1 colher de chá de Nutella em cada saquinho e espalhe.',
-      'Adicione a mistura líquida, amarre e congele.'
-    ]
-  },
-  {
     id: '4',
     title: 'Piña Colada Refrescante',
     image: '/geladinho2.png',
     prepTime: '20 min',
-    category: 'Alcoólicos',
+    category: 'Cremosos',
     rating: 4.7,
     yield: '10 unidades',
     ingredients: [
@@ -602,7 +579,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Pedacinho do Céu',
     image: '/geladinho_ceu.png',
     prepTime: '25 min',
-    category: 'Infantil',
+    category: 'Cremosos',
     rating: 4.9,
     yield: '10 unidades',
     ingredients: [
@@ -715,7 +692,7 @@ export const MOCK_RECIPES: Recipe[] = [
   {
     id: '31',
     title: 'Geladinho de Morango Natural',
-    image: '/geladinho_morango.png',
+    image: '/geladinho_morango_cobertura.png',
     prepTime: '25 min',
     category: 'Frutas',
     rating: 4.9,
@@ -1144,6 +1121,150 @@ export const MOCK_RECIPES: Recipe[] = [
       'Deixe a mistura descansar por pelo menos 20 minutos.',
       'Retire toda a espuma formada na superfície.',
       'Coloque 100ml da mistura em cada saquinho e congele.'
+    ]
+  },
+  {
+    id: '50',
+    title: 'Geladinho Sabor Coco',
+    image: '/geladinho_creme.png',
+    prepTime: '15 min',
+    category: 'Economicos',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '600 ml de leite',
+      '300 ml de água',
+      '1 xícara de açúcar',
+      '1 colher de sobremesa de liga neutra',
+      '2 colheres de sopa de pó saborizante sabor coco',
+      '1 colher de café de manteiga sem sal'
+    ],
+    instructions: [
+      'Misture o leite, a água, o açúcar e a liga neutra em uma jarra.',
+      'Deixe a mistura descansar por 10 minutos para hidratar a liga neutra.',
+      'Transfira a base para o liquidificador, adicione o pó saborizante de coco e a manteiga sem sal.',
+      'Bata tudo por 3 minutos ininterruptos.',
+      'Coloque 60ml da mistura em cada saquinho (4x24cm), dê um nó bem rente ao líquido, corte a sobra de plástico e leve ao congelador.'
+    ]
+  },
+  {
+    id: '51',
+    title: 'Geladinho Sabor Chocolate',
+    image: '/geladinho_chicabon.png',
+    prepTime: '15 min',
+    category: 'Economicos',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '600 ml de leite',
+      '300 ml de água',
+      '1 xícara de açúcar',
+      '1 colher de sobremesa de liga neutra',
+      '2 colheres de sopa de pó saborizante sabor chocolate',
+      '1 colher de café de manteiga sem sal'
+    ],
+    instructions: [
+      'Misture o leite, a água, o açúcar e a liga neutra em uma jarra.',
+      'Deixe a mistura descansar por 10 minutos para hidratar a liga neutra.',
+      'Transfira a base para o liquidificador, adicione o pó saborizante de chocolate e a manteiga sem sal.',
+      'Bata tudo por 3 minutos ininterruptos.',
+      'Coloque 60ml da mistura em cada saquinho (4x24cm), dê um nó bem rente ao líquido, corte a sobra de plástico e leve ao congelador.'
+    ]
+  },
+  {
+    id: '52',
+    title: 'Geladinho Sabor Maçã Verde',
+    image: '/geladinho_kiwi.png',
+    prepTime: '15 min',
+    category: 'Economicos',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '600 ml de leite',
+      '300 ml de água',
+      '1 xícara de açúcar',
+      '1 colher de sobremesa de liga neutra',
+      '2 colheres de sopa de pó saborizante sabor maçã verde',
+      '1 colher de café de manteiga sem sal'
+    ],
+    instructions: [
+      'Misture o leite, a água, o açúcar e a liga neutra em uma jarra.',
+      'Deixe a mistura descansar por 10 minutos para hidratar a liga neutra.',
+      'Transfira a base para o liquidificador, adicione o pó saborizante de maçã verde e a manteiga sem sal.',
+      'Bata tudo por 3 minutos ininterruptos.',
+      'Coloque 60ml da mistura em cada saquinho (4x24cm), dê um nó bem rente ao líquido, corte a sobra de plástico e leve ao congelador.'
+    ]
+  },
+  {
+    id: '53',
+    title: 'Geladinho Sabor Céu Azul',
+    image: '/geladinho_ceu.png',
+    prepTime: '15 min',
+    category: 'Economicos',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '600 ml de leite',
+      '300 ml de água',
+      '1 xícara de açúcar',
+      '1 colher de sobremesa de liga neutra',
+      '2 colheres de sopa de pó saborizante sabor blue ice',
+      '1 colher de café de manteiga sem sal'
+    ],
+    instructions: [
+      'Misture o leite, a água, o açúcar e a liga neutra em uma jarra.',
+      'Deixe a mistura descansar por 10 minutos para hidratar a liga neutra.',
+      'Transfira a base para o liquidificador, adicione o pó saborizante sabor blue ice e a manteiga sem sal.',
+      'Bata tudo por 3 minutos ininterruptos.',
+      'Coloque 60ml da mistura em cada saquinho (4x24cm), dê um nó bem rente ao líquido, corte a sobra de plástico e leve ao congelador.'
+    ]
+  },
+  {
+    id: '54',
+    title: 'Geladinho Sabor Chiclete',
+    image: '/geladinho_nesquik.png',
+    prepTime: '15 min',
+    category: 'Economicos',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '600 ml de leite',
+      '300 ml de água',
+      '1 xícara de açúcar',
+      '1 colher de sobremesa de liga neutra',
+      '2 colheres de sopa de pó saborizante sabor tutti frutti',
+      '1 colher de café de manteiga sem sal'
+    ],
+    instructions: [
+      'Misture o leite, a água, o açúcar e a liga neutra em uma jarra.',
+      'Deixe a mistura descansar por 10 minutos para hidratar a liga neutra.',
+      'Transfira a base para o liquidificador, adicione o pó saborizante de chiclete (tutti frutti) e a manteiga sem sal.',
+      'Bata tudo por 3 minutos ininterruptos.',
+      'Coloque 60ml da mistura em cada saquinho (4x24cm), dê um nó bem rente ao líquido, corte a sobra de plástico e leve ao congelador.'
+    ]
+  },
+  {
+    id: '55',
+    title: 'Geladinho Sabor Creme',
+    image: '/geladinho_creme.png',
+    prepTime: '15 min',
+    category: 'Economicos',
+    rating: 4.7,
+    yield: '15 unidades',
+    ingredients: [
+      '600 ml de leite',
+      '300 ml de água',
+      '1 xícara de açúcar',
+      '1 colher de sobremesa de liga neutra',
+      '2 colheres de sopa de pó saborizante sabor creme',
+      '1 colher de café de manteiga sem sal'
+    ],
+    instructions: [
+      'Misture o leite, a água, o açúcar e a liga neutra em uma jarra.',
+      'Deixe a mistura descansar por 10 minutos para hidratar a liga neutra.',
+      'Transfira a base para o liquidificador, adicione o pó saborizante de creme e a manteiga sem sal.',
+      'Bata tudo por 3 minutos ininterruptos.',
+      'Coloque 60ml da mistura em cada saquinho (4x24cm), dê um nó bem rente ao líquido, corte a sobra de plástico e leve ao congelador.'
     ]
   }
 ];

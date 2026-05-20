@@ -6,7 +6,7 @@ import { MOCK_RECIPES } from '../data/recipes';
 import { MOCK_TIPS } from '../data/tips';
 import './Home.css';
 
-const CATEGORIES = ['Todas', 'Frutas', 'Cremosos', 'Alcoólicos', 'Fitness', 'Diet', 'Infantil'];
+const CATEGORIES = ['Todas', 'Frutas', 'Cremosos', 'Economicos', 'Diet'];
 
 const Home = () => {
   const [activeCategory, setActiveCategory] = useState('Todas');
@@ -93,7 +93,7 @@ const Home = () => {
       <section className="section" id="dicas">
         <div className="container">
           <h2 className="section-title fade-in-up">Dicas de Ouro</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 fade-in-up stagger-2">
+          <div className="tips-grid fade-in-up stagger-2">
             {MOCK_TIPS.map(tip => (
               <TipCard key={tip.id} title={tip.title} content={tip.content} />
             ))}
