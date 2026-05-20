@@ -63,7 +63,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Ninho com Nutella',
     image: '/geladinho1.png',
     prepTime: '25 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 5.0,
     yield: '8 unidades',
     ingredients: [
@@ -107,7 +107,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Geladinho de Oreo',
     image: '/geladinho_oreo.png',
     prepTime: '40 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.9,
     yield: '10 unidades',
     ingredients: [
@@ -131,7 +131,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Geladinho Sensações',
     image: '/geladinho_sensacoes.png',
     prepTime: '35 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.9,
     yield: '10 unidades',
     ingredients: [
@@ -206,7 +206,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Geladinho de Ovomaltine',
     image: '/geladinho_ovomaltine.png',
     prepTime: '35 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.8,
     yield: '10 unidades',
     ingredients: [
@@ -229,7 +229,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Ninho com Oreo',
     image: '/geladinho_ninho_oreo.png',
     prepTime: '30 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 5.0,
     yield: '10 unidades',
     ingredients: [
@@ -253,7 +253,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Creme com Nutella (Crush)',
     image: '/geladinho_creme_nutella.png',
     prepTime: '35 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.9,
     yield: '10 unidades',
     ingredients: [
@@ -324,7 +324,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Geladinho de Bis',
     image: '/geladinho_bis.png',
     prepTime: '25 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.8,
     yield: '10 unidades',
     ingredients: [
@@ -347,7 +347,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Geladinho Chicabon',
     image: '/geladinho_chicabon.png',
     prepTime: '25 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.9,
     yield: '10 unidades',
     ingredients: [
@@ -369,7 +369,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Torta de Limão',
     image: '/geladinho_torta_limao.png',
     prepTime: '30 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.9,
     yield: '10 unidades',
     ingredients: [
@@ -395,7 +395,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Coco com Nutella',
     image: '/geladinho_coco_nutella.png',
     prepTime: '30 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 5.0,
     yield: '10 unidades',
     ingredients: [
@@ -419,7 +419,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Ouro Branco',
     image: '/geladinho_ouro_branco.png',
     prepTime: '25 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.8,
     yield: '10 unidades',
     ingredients: [
@@ -464,7 +464,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Amendoim com Chocolate',
     image: '/geladinho_pacoca.png',
     prepTime: '25 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.8,
     yield: '10 unidades',
     ingredients: [
@@ -488,7 +488,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Ninho com Goiabada',
     image: '/geladinho_ninho_morango.png',
     prepTime: '30 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 4.9,
     yield: '10 unidades',
     ingredients: [
@@ -536,7 +536,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Geladinho de Nutella',
     image: '/geladinho_creme_nutella.png',
     prepTime: '25 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 5.0,
     yield: '10 unidades',
     ingredients: [
@@ -580,7 +580,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Ferrero Rocher',
     image: '/geladinho_ferrero.png',
     prepTime: '25 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 5.0,
     yield: '10 unidades',
     ingredients: [
@@ -624,7 +624,7 @@ export const MOCK_RECIPES: Recipe[] = [
     title: 'Ninho com Nutella',
     image: '/geladinho_ninho_nutella.png',
     prepTime: '25 min',
-    category: 'Premium',
+    category: 'Cremosos',
     rating: 5.0,
     yield: '10 unidades',
     ingredients: [
@@ -889,6 +889,261 @@ export const MOCK_RECIPES: Recipe[] = [
       'Deixe descansar por 10 minutos.',
       'Retire a espuma e coe a mistura.',
       'Coloque 100ml do líquido em cada saquinho e congele.'
+    ]
+  },
+  {
+    id: '39',
+    title: 'Geladinho Manga Diet',
+    image: '/geladinho_diet_manga.png',
+    prepTime: '20 min',
+    category: 'Diet',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1 manga madura picada',
+      '100ml de água gelada',
+      '10 gotas de adoçante',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe a mistura descansar por 10 minutos para reduzir a espuma.',
+      'Retire toda a espuma da superfície.',
+      'Coloque 100ml do líquido em cada saquinho de geladinho.',
+      'Amarre bem firme e leve ao freezer.'
+    ]
+  },
+  {
+    id: '40',
+    title: 'Geladinho Cremoso de Morango Diet',
+    image: '/geladinho_diet_morango_iogurte.png',
+    prepTime: '25 min',
+    category: 'Diet',
+    rating: 4.9,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '500g de iogurte desnatado',
+      '1 xícara (chá) de leite em pó',
+      '1 colher (sopa) de liga neutra',
+      '3 colheres (sopa) de adoçante culinário',
+      '200g de morangos frescos',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe a mistura descansar por 10 minutos para reduzir a espuma.',
+      'Retire toda a espuma da superfície.',
+      'Coloque 100ml do líquido em cada saquinho de geladinho.',
+      'Amarre bem e leve ao freezer.'
+    ]
+  },
+  {
+    id: '41',
+    title: 'Geladinho de Uva Diet',
+    image: '/geladinho_diet_uva.png',
+    prepTime: '15 min',
+    category: 'Diet',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de suco de uva light',
+      '1 copo de água mineral',
+      '10 gotas de adoçante',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe a mistura descansar por 10 minutos para reduzir a espuma.',
+      'Retire toda a espuma da superfície.',
+      'Coloque 100ml do líquido em cada saquinho de geladinho.',
+      'Amarre bem e leve ao freezer.'
+    ]
+  },
+  {
+    id: '42',
+    title: 'Geladinho de Abacaxi Diet',
+    image: '/geladinho_diet_abacaxi.png',
+    prepTime: '15 min',
+    category: 'Diet',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '1 caixa de 1L de suco diet de abacaxi',
+      '1 copo de água mineral',
+      '10 gotas de adoçante',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe a mistura descansar por 10 minutos para reduzir a espuma.',
+      'Retire toda a espuma da superfície.',
+      'Coloque 100ml do líquido em cada saquinho de geladinho.',
+      'Amarre bem e leve ao freezer.'
+    ]
+  },
+  {
+    id: '43',
+    title: 'Geladinho de Abacaxi com Hortelã Diet',
+    image: '/geladinho_diet_abacaxi_hortela.png',
+    prepTime: '25 min',
+    category: 'Diet',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '1L de água',
+      '2 maçãs bem doces, sem casca e sem semente (se não estiverem muito doces, use mel ou açúcar demerara)',
+      '200g de abacaxi picado',
+      'Hortelã picado a gosto',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe a mistura descansar por 10 minutos para reduzir a espuma.',
+      'Coe e retire a espuma da mistura.',
+      'Coloque 100ml do líquido em cada saquinho de geladinho.',
+      'Amarre bem e leve ao freezer.'
+    ]
+  },
+  {
+    id: '44',
+    title: 'Geladinho Cremoso de Limão Diet',
+    image: '/geladinho_diet_limao.png',
+    prepTime: '25 min',
+    category: 'Diet',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '1 litro de leite integral',
+      '500g de iogurte desnatado',
+      '1 xícara (chá) de leite em pó',
+      '1 colher (sopa) de liga neutra',
+      '3 colheres (sopa) de adoçante culinário',
+      '1 e 1/2 limão espremido',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe a mistura descansar por 10 minutos para reduzir a espuma.',
+      'Retire toda a espuma da superfície.',
+      'Coloque 100ml do líquido em cada saquinho de geladinho.',
+      'Amarre bem e leve ao freezer.'
+    ]
+  },
+  {
+    id: '45',
+    title: 'Geladinho de Maracujá Diet',
+    image: '/geladinho_diet_maracuja.png',
+    prepTime: '20 min',
+    category: 'Diet',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '4 polpas de maracujá',
+      '1/2 copo de leite desnatado',
+      '4 folhas de hortelã',
+      'Adoçante culinário a gosto',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Bata todos os ingredientes no liquidificador por 2 minutos.',
+      'Deixe a mistura descansar por 10 minutos para reduzir a espuma.',
+      'Retire toda a espuma da superfície.',
+      'Coloque 100ml do líquido em cada saquinho de geladinho.',
+      'Amarre bem e leve ao freezer.'
+    ]
+  },
+  {
+    id: '46',
+    title: 'Geladinho de Manga',
+    image: '/geladinho_manga.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      '3 xícaras (chá) de manga cortada em cubinhos ou 2 polpas de manga',
+      '1 xícara (chá) de água',
+      '4 colheres (sopa) de açúcar',
+      '2 colheres rasas de liga neutra',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Coloque todos os ingredientes no liquidificador.',
+      'Bata por pelo menos 1 minuto e 30 segundos.',
+      'Deixe a mistura descansar por pelo menos 20 minutos.',
+      'Retire toda a espuma formada na superfície.',
+      'Com o auxílio de um funil, coloque 100ml da mistura em cada saquinho e congele.'
+    ]
+  },
+  {
+    id: '47',
+    title: 'Geladinho de Maracujá',
+    image: '/geladinho_maracuja_natural.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.8,
+    yield: '10 unidades',
+    ingredients: [
+      'Polpa de 3 maracujás',
+      '1 xícara (chá) de água',
+      '4 colheres (sopa) de açúcar',
+      '2 colheres rasas de liga neutra',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Coloque todos os ingredientes no liquidificador.',
+      'Bata por pelo menos 1 minuto e 30 segundos.',
+      'Deixe a mistura descansar por pelo menos 20 minutos.',
+      'Peneire e retire toda a espuma formada na superfície.',
+      'Coloque 100ml da mistura em cada saquinho e congele.'
+    ]
+  },
+  {
+    id: '48',
+    title: 'Geladinho de Kiwi',
+    image: '/geladinho_kiwi.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.7,
+    yield: '10 unidades',
+    ingredients: [
+      '4 kiwis descascados e cortados em pedacinhos',
+      '1 xícara (chá) de água',
+      '4 colheres (sopa) de açúcar',
+      '2 colheres rasas de liga neutra',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Coloque todos os ingredientes no liquidificador.',
+      'Bata por pelo menos 1 minuto e 30 segundos.',
+      'Deixe a mistura descansar por pelo menos 20 minutos.',
+      'Retire toda a espuma formada na superfície.',
+      'Coloque 100ml da mistura em cada saquinho e congele.'
+    ]
+  },
+  {
+    id: '49',
+    title: 'Geladinho de Melancia',
+    image: '/geladinho_melancia.png',
+    prepTime: '25 min',
+    category: 'Frutas',
+    rating: 4.9,
+    yield: '10 unidades',
+    ingredients: [
+      '4 xícaras (chá) de melancia em cubinhos sem semente',
+      '1/4 xícara (chá) de água',
+      'Suco de 1/2 limão',
+      '4 colheres (sopa) de açúcar',
+      '2 colheres rasas de liga neutra',
+      'Saquinhos de geladinho (6x24cm)'
+    ],
+    instructions: [
+      'Coloque todos os ingredientes no liquidificador.',
+      'Bata por pelo menos 1 minuto e 30 segundos.',
+      'Deixe a mistura descansar por pelo menos 20 minutos.',
+      'Retire toda a espuma formada na superfície.',
+      'Coloque 100ml da mistura em cada saquinho e congele.'
     ]
   }
 ];
